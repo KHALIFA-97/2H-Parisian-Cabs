@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', event => {
         const phoneNumber = '+33748364359'; 
         window.open(`tel:${phoneNumber}`);
     });
-    const navbartoggler1 = document.querySelector('.yellow-btn');
+    const navbartoggler1 = document.querySelector('.yellow-btn1');
 
     navbartoggler1.addEventListener('click', () => {
         const phoneNumber = '+33748364359'; 
