@@ -47,6 +47,12 @@ window.addEventListener('DOMContentLoaded', event => {
         const phoneNumber = '+33748364359'; 
         window.open(`tel:${phoneNumber}`);
     });
+    const navbartoggler1 = document.querySelector('.yellow-btn');
+
+    navbartoggler1.addEventListener('click', () => {
+        const phoneNumber = '+33748364359'; 
+        window.open(`tel:${phoneNumber}`);
+    });
     // document.getElementById('contactForm').addEventListener('submit', function(event) {
     //     event.preventDefault(); 
     
