@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', event => {
             phone: document.getElementById('phone').value,
             message: document.getElementById('message').value
         };    
-        emailjs.send("service_n1ws6fl", "template_ctnjk58", formData)
+        emailjs.send("service_rh0ynqo", "template_ctnjk58", formData)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById('submitSuccessMessage').classList.remove('d-none');
