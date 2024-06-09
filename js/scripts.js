@@ -77,7 +77,7 @@ window.addEventListener('DOMContentLoaded', event => {
     //     // Reset the form after submission (optional)
     //     document.getElementById('contactForm').reset();
     // });
-    emailjs.init('A6ZWogaIeBnd4JtZY');
+    emailjs.init('rqYJO6jZiaH75Q4VM');
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault(); 
     
@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', event => {
             phone: document.getElementById('phone').value,
             message: document.getElementById('message').value
         };    
-        emailjs.send("service_721rqty", "template_u4im5zf", formData)
+        emailjs.send("service_n1ws6fl", "template_ctnjk58", formData)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById('submitSuccessMessage').classList.remove('d-none');
